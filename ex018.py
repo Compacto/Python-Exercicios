@@ -1,12 +1,12 @@
-import math
+from math import sin, cos, tan, radians
 
 ang = float(input('Informe o ângulo: '))
 
-rad = math.radians(ang)
+rad = radians(ang)
 
-sen = math.sin(rad)
-cos = math.cos(rad)
-tang = math.tan(rad)
+sen = sin(rad)
+cos = cos(rad)
+tang = tan(rad)
 
 
 print(f'Segue os valores do: \n'
