@@ -1,4 +1,4 @@
-nome = str(input('Digite o seu nome: '))
+nome = str(input('Digite o seu nome: ').strip())
 
 print(f'Segue as informações\n'
       f'Nome com todas as letras maiúsculas: {nome.upper()}\n'
