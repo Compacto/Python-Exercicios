@@ -1,4 +1,4 @@
-frase = input('Digite uma frase: ')
+frase = str(input('Digite uma frase: '))
 
 print(f'Dados da frase:\n'
       f'A letra "A" aparece {frase.count("a", 0)} vezes na frase\n'
