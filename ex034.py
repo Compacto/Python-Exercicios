@@ -6,8 +6,8 @@ while salario < 0:
                           'informe seu salário corretamente: '))
 
 if salario > 1250:
-    aumento = salario * 0.1
+    aumento = salario * 1.1
 else:
-    aumento = salario * 0.15
+    aumento = salario * 1.15
 
-print(f'O seu salário irá aumentar em: R$ {aumento:.2f}')
+print(f'O seu antigo salário era R$ {salario:.2f} e agora ele irá aumentar para: R$ {aumento:.2f}')
