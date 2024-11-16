@@ -66,7 +66,7 @@ def jogar():
         # Perguntar se o usuário deseja jogar novamente
         jogar_novamente = str(input('\nDeseja jogar novamente? (\033[32ms\033[m/\033[31mn\033[m): ')).strip().lower()
         if jogar_novamente == 's':
-            continue  # Faz com que o programa pule o resto do código e vá direto pra proxima interação (jogar())
+            continue  # Faz com que o programa pule o resto do if e vá direto pra proxima interação ("jogar()")
         else:
             print('\033[34mObrigado por jogar!\033[m')
             break
