@@ -5,7 +5,7 @@ while distancia < 0:
                           'Valor digitado inválido!\n'
                           'Informe a distância da viagem em KM: '))
 
-if distancia > 0 and distancia <= 200:
+if 0 < distancia <= 200:
     print(f'------------------------------------\n'
           f'O valor da passagem é: R$ {distancia * 0.50:.2f}')
 else:
