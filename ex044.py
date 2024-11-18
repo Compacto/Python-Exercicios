@@ -1,4 +1,4 @@
-valor = float(input('Informe o valor do produto: '))
+valor = float(input('Informe o valor do produto: R$'))
 
 # Solicita o usuário a forma de pagamento
 op = int(input('\033[33mQual é a forma de pagamento?\033[m: \n'

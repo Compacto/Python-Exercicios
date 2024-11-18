@@ -1,5 +1,5 @@
-valor = float(input('Informe o valor da casa: '))
-salario = float(input('Informe o seu salário: '))
+valor = float(input('Informe o valor da casa: R$'))
+salario = float(input('Informe o seu salário: R$'))
 anos = int(input('Em quantos anos você quer pagar? (obs: permitido apenas de 5 a 35 anos): '))
 
 # Válida se os anos estão dentro do intervalo permitido
