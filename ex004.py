@@ -1,0 +1,7 @@
+var = input('Digite algo: ')
+print(f'{var} é um número?: ', var.isnumeric())
+print(f'{var} é um alfabético?: ', var.isalpha())
+print(f'{var} é um alfa numérico?: ', var.isalnum())
+print(f'{var} é um número decimal?: ', var.isdecimal())
+print(f'{var} é um possui caixa baixa?: ', var.islower())
+print(f'{var} é um possui caixa alta?: ', var.isupper())
