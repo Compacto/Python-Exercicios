@@ -1,9 +1,10 @@
-frase = str(input('Informe uma frase: ')).strip().lower()
+# Lê a frase, coloca tudo em minúsculo e remove os espaços
+frase = ''.join(str(input('Informe uma frase: ')).strip().lower().split())
 
-# Remover espaços e comparar a frase com sua versão invertida
+# Lê a frase do inicio ao fim (::) depois lê ao contrário
 frase_invertida = frase[::-1]
 
 if frase == frase_invertida:
-    print(f'A frase "{frase}" é um palíndromo.')
+    print(f'A frase informada é um palíndromo.')
 else:
-    print(f'A frase "{frase}" não é um palíndromo.')
+    print(f'A frase informada não é um palíndromo.')

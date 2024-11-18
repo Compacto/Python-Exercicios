@@ -2,8 +2,8 @@
 pesos = []
 
 # Laço para ler 5 pesos
-for i in range(5):
-    peso = float(input('Informe o peso: '))
+for i in range(1,6):
+    peso = float(input(f'Informe o peso da {i}ª pessoa: '))
     # Adiciona o peso à lista
     pesos.append(peso)
 
