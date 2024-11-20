@@ -1,3 +1,5 @@
+from time import sleep
+
 num1 = float(input('Informe o primeiro número: '))
 num2 = float(input('Informe o segundo número: '))
 
@@ -23,15 +25,18 @@ while menu != 5:
         print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n'
               f'A soma de {num1} e {num2} é: {num1 + num2}\n'
               f'-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
+        sleep(1)
     elif menu == 2:
         print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n'
               f'A multiplicação de {num1} e {num2} é: {num1 * num2}\n'
               f'-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
+        sleep(1)
     elif menu == 3:
         maior = max(num1, num2)
         print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n'
               f'O maior número é: {maior}\n'
               f'-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
+        sleep(1)
     elif menu == 4:
         # Solicitar novos números
         print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n'
@@ -39,6 +44,7 @@ while menu != 5:
         num1 = float(input('Informe o primeiro número: '))
         num2 = float(input('Informe o segundo número: '))
         print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-')
+        sleep(1)
     elif menu == 5:
         print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-\n'
               'Obrigado por utilizar o software. Até breve!\n'

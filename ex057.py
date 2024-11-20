@@ -1,7 +1,10 @@
-sexo = str(input('Informe o sexo [M ou F]: ')).strip().lower()
+sexo = str(input('Informe o seu sexo [M ou F]: ')).strip().lower()
 
 while sexo != 'm' and sexo != 'f':
     sexo = str(input('OPÇÃO INVÁLIDA!\n'
-                     'Informe o sexo [M ou F]: ')).strip().lower()
+                     'Por favor, informe o seu sexo [M ou F]: ')).strip().lower()
 
-print(f'A opção escolhida é: {sexo}')
+if sexo == 'm':
+    print('A seu sexo é: feminino')
+else:
+    print('Seu sexo é: masculino')
