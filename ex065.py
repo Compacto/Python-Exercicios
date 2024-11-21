@@ -6,11 +6,14 @@ lista = [num]  # Lista que armazena todos os números digitados
 
 # Loop para continuar pedindo números até o usuário decidir parar
 while True:
+
     # Pergunta ao usuário se quer continuar
     continuar = str(input('Quer continuar? [S/N]: ')).strip().lower()
+
     # Se o usuário digitar 'n', o loop é interrompido
     if continuar == 'n':
         break
+
     # Se o usuário digitar 's', o programa continua pedindo números
     num = int(input('Digite um número: '))
     lista.append(num)  # Adiciona o número à lista
