@@ -1,6 +1,6 @@
 cont_idade = 0
-mulher_menos20 = 0
 homens = 0
+mulher_menos20 = 0
 
 while True:
     print('-' * 30)

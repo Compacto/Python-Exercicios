@@ -34,6 +34,7 @@ while True:
     else:
         print('Você PERDEU!')
         break
+
 print(f'GAME OVER! Você venceu {cont} vezes.')
 
 
